@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+  
+body{
+    background-image: url("https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+
+    background-position: center;    
+}
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    body{
+        background-position-y: 123px;
+        
+    }
+    
+}
+
+/* Navigation menu */
+nav {
+    background-color: black;
+    background-repeat: round;
+    background-position: center;
+    background-image: url("https://media.istockphoto.com/photos/blood-splatter-over-black-background-picture-id959756936?k=20&m=959756936&s=170667a&w=0&h=6oBzgF6zDG96ljiEvNX3t8F-FChUGL34Scl4STSnvmw=");
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="list"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 30px;
+    display: flex;
+} 
+#contact{
+    color:#f10049;
+}
+a:hover {
+    
+    color:#f10049;
+    
+}
+.image {
+    height: 78px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="image"] {
+        height: 208px;
+    }
+}
+
+
+/* For Contact Form */
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+} 
+
+ /* For input to Form */
+ .input {
+    width: 49%;
+    height: 57px;
+    border-radius: 18px;
+    margin-top: 14px;
+    outline: none;
+    background: #dab9c4;
+    color: black;
+    border: white;
+    box-shadow: 0 6px 20px -5px rgb(0 0 0 / 40%);
+ }
+ #add{
+    width: 49%;
+    height: 101px;
+ }
+
+/* Button CSS */
+.btn{
+    width: 179px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color:#fc5185;
+    border-radius: 40px;
+    box-shadow: 0 6px 20px -5px rgb(0 0 0 / 40%);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 14px;
+}
+/* Button Text */
+.text{
+    font-size: 17px;
+    color: #fff;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+.kon{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: azure;
+}
+.kon::before{
+    content: "";
+    position: absolute;
+    width: 56%;
+    height: 60%;
+    z-index: -1;
+    opacity: 1;
+    background: #673de6;
+    border-radius: 24px;
+}
+@media only screen and (max-width: 1530px) {
+
+    /* For mobile phones: */
+    .kon::before{
+        content: "";
+        position: absolute;
+        width: 53%;
+        height: 70%;
+        z-index: -1;
+        opacity: 1;
+        background: #673de6;
+        border-radius: 24px;
+    }
+    
+}
+
+
+/* For Footer */
+.end{
+    text-align: center;
+    color: white;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    height: 66px;
+    margin-top: 140px;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fb{
+    height: 28px;
+    color:#17A9FD ;
+    font-size: 28px;
+    width: 48px;
+}
+#in{
+    height: 28px;
+    color: #fc7ba7;
+    font-size: 28px;
+    width: 48px;
+}
+#li{
+    padding-top: 7px;
+    height: 43px;
+    color: #0077b5;
+    font-size: 28px;
+    width: 48px;
+
+}
+

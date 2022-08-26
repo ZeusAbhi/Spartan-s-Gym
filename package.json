@@ -1,0 +1,23 @@
+{
+  "name": "gym",
+  "version": "1.0.0",
+  "description": "gym website",
+  "main": "app.js",
+  
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "abhi",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "pug": "^3.0.2"  
+  } 
+  
+}
+

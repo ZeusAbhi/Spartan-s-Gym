@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* CSS Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+/* Navigation Menu */
+nav {
+    background-color: black;
+    background-repeat: round;
+    background-position: center;
+    background-image: url("https://media.istockphoto.com/photos/blood-splatter-over-black-background-picture-id959756936?k=20&m=959756936&s=170667a&w=0&h=6oBzgF6zDG96ljiEvNX3t8F-FChUGL34Scl4STSnvmw=");
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="list"] {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+ 
+  
+a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 30px;
+    display: flex;
+}
+#home{
+    color:#f10049;
+}
+a:hover {
+    
+    color:#f10049;
+    
+}
+
+.image {
+    height: 78px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="image"] {
+      height: 208px;
+    }
+  }
+
+/* Introduction Section ref-WSS */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 29px;
+}
+
+.container img {
+    width: 100%;
+    height: 79vh;
+}
+
+
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -45%);
+}
+.text1{
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    background-image: linear-gradient(to left, white, rgb(255 213 213));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.text1{
+    margin: 0 0.5rem;
+    animation:fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration:10s; /* don't forget to set a duration! */
+}
+#spar{
+    font-size: 49px;
+}
+
+/* Coaches Section CSS */
+
+.gym {
+    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1632596677233-e3b2ba15375e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80");
+    margin-top: -13px;
+    padding-top: 24px;
+    background-position: center;
+}  
+
+.coach {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+    /* For mobile phones: */
+    [class*="coach"] {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+.arno {
+    width: 391px;
+    height: 448px;
+    padding: 190px;
+    margin: 28px;
+    border-radius: 22px;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-2d290dcd26afa885a3edee68e8769dd6-lq");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y:-3px;
+    animation: changei 3s linear infinite;
+    
+    
+}
+@keyframes changei{
+    0%{
+        background-image: url("https://qph.cf2.quoracdn.net/main-qimg-2d290dcd26afa885a3edee68e8769dd6-lq");
+    }
+    25%{
+        background-image: url("https://manofmany.com/wp-content/uploads/2019/03/Arnold-Schwarzeneggers-Diet-and-Workout-Plan.jpg");
+    }
+    50%{
+        background-image: url("https://miro.medium.com/max/1071/1*WNr4o3XKVcb556Al3beWAQ.jpeg");
+    }
+    75%{
+        background-image: url("https://i.pinimg.com/564x/58/cf/c1/58cfc1c82e3de58da0c6cb9b2dc960ca--bodybuilding-workout-plan-bodybuilding-motivation.jpg");
+    }
+    0%{
+        background-image: url("https://qph.cf2.quoracdn.net/main-qimg-2d290dcd26afa885a3edee68e8769dd6-lq");
+    }
+
+}
+
+.ron {
+    width: 391px;
+    height: 448px;
+    padding: 190px;
+    margin: 28px;
+    border-radius: 22px;
+    background-image: url("https://i.pinimg.com/originals/9b/b9/f0/9bb9f0e7cf04c704cb3c37600defb7df.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+    animation: changeim 3s linear infinite;
+}
+@keyframes changeim{
+    0%{
+        background-image: url("https://i.pinimg.com/originals/9b/b9/f0/9bb9f0e7cf04c704cb3c37600defb7df.jpg");
+    }
+    25%{
+        background-image: url("https://i.pinimg.com/564x/f7/10/7d/f7107d4fbd9b06476b92b3fe2d3ed5a2.jpg");
+    }
+    50%{
+        background-image: url("http://cdn.shopify.com/s/files/1/0570/7802/2327/articles/ronnie_coleman_the_hungry_elite_fitness_academy_badreddine_1200x1200.jpg?v=1640368283");
+    }
+    75%{
+        background-image: url("https://austinfoodmagazine.com/wp-content/uploads/2018/05/ronnie-coleman-1-1200x720.jpg");
+    }
+    0%{
+        background-image: url("https://i.pinimg.com/originals/9b/b9/f0/9bb9f0e7cf04c704cb3c37600defb7df.jpg");
+    }
+
+}
+
+.bum {
+    width: 391px;
+    height: 448px;
+    padding: 190px;
+    margin: 28px;
+    border-radius: 22px;
+    background-image: url("https://pbs.twimg.com/media/FKS9hIEXEAcjUst.jpg");
+    background-position: center;
+    background-position-y: 0px;
+    animation: change 3s linear infinite;
+}
+@keyframes change{
+    0%{
+        background-image: url("https://pbs.twimg.com/media/FKS9hIEXEAcjUst.jpg");
+    }
+    25%{
+        background-image: url("https://i0.wp.com/www.thebarbell.com/wp-content/uploads/2022/07/Chris-Bumstead-diet.png?fit=652%2C519&ssl=1");
+    }
+    50%{
+        background-image: url("https://rukminim1.flixcart.com/image/416/416/kvy58y80/poster/8/c/z/small-chris-bumstead-poster-multicolor-photopaper-print-12-inch-original-imag8q5rfuzgkprp.jpeg?q=70");
+    }
+    75%{
+        background-image: url("https://i.pinimg.com/originals/b8/91/e7/b891e7e3a6f8296f04f57ce4e6e5b598.jpg");
+    }
+    0%{
+        background-image: url("https://pbs.twimg.com/media/FKS9hIEXEAcjUst.jpg");
+    }
+
+}
+
+/* Text Used In Home Page */
+.text {
+
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+    background-image: linear-gradient(to left, white, rgb(230 226 226));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.text{
+    
+    margin: 0 0.5rem;
+    animation:fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration:10s; /* don't forget to set a duration! */
+}
+  /* Sponsors Secction */
+
+.sponsors {
+    margin-top: 0px;
+    background-image: url("https://images.unsplash.com/photo-1434754205268-ad3b5f549b11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+    padding-top: 25px;
+    height: 68vh;
+    background-position-y:bottom ;
+}
+
+/* Logos Of Brands */
+.logo {
+    display: flex;
+    margin-top: 51px;
+
+}
+@media only screen and (max-width: 1400px) {
+    /* For mobile phones: */
+    [class*="logo"] {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+  }
+
+.bl {
+    width: 100%;
+    height: 35vh;
+}
+@media only screen and (max-width: 1400px) {
+    /* For mobile phones: */
+    [class*="bl"] {
+        width: 25%;
+        height: 152px;
+    }
+  }
+
+
+#blz {
+    border-radius: 50%;
+    
+}
+
+#wh {
+    border-radius: 50%;
+  
+    background-color: black;
+}
+
+#brk {
+    border-radius: 50%;
+    
+}
+
+#bums {
+    border-radius: 50%;
+  
+}
+  
+/* End Section */
+.final {
+    padding-top: 25px;
+    background-image: url("https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+    background-position: bottom;
+}
+
+.cities ul {
+    display: inline-block;
+    padding-right: 198px;
+    font-size: 30px;
+    margin-top: 37px;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+
+} 
+/* Footer  */
+.end{
+    text-align: center;
+    color: white;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    height: 66px;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fb{
+    height: 28px;
+    color:#17A9FD ;
+    font-size: 28px;
+    width: 48px;
+}
+#in{
+    height: 28px;
+    color: #fc7ba7;
+    font-size: 28px;
+    width: 48px;
+}
+#li{
+    padding-top: 7px;
+    height: 43px;
+    color: #0077b5;
+    font-size: 28px;
+    width: 48px;
+
+}
